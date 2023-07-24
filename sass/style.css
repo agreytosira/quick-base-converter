@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  outline: none;
+  border: none;
+}
+
+body {
+  color: #fff;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0A192F;
+}
+
+.container {
+  padding: 2rem;
+  background-color: #112240;
+  border-radius: 1rem;
+}
+
+.container-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.container-header p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.input-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1rem 0;
+}
+
+.input-group label {
+  font-weight: 600;
+}
+
+input[type=text] {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 350px;
+  padding: .5rem 1rem;
+  border: 1px solid #acacac;
+  border-radius: .25rem;
+  color: #fff !important;
+}
+
+input:focus {
+  border: 1px solid #007bff !important;
+}
+/*# sourceMappingURL=style.css.map */
